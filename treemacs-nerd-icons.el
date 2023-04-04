@@ -25,7 +25,7 @@
 
 ;;; Code:
 
-(require 'emacs-nerd-icons)
+(require 'nerd-icons)
 (require 'treemacs)
 
 (defface treemacs-emacs-nerd-icons-root-face
@@ -42,7 +42,7 @@
                                           (propertize "\t" 'face `((:family ,treemacs-emacs-nerd-icons-tab-font)))
                                         "\t"))
 
-(treemacs-create-theme "emacs-nerd-icons"
+(treemacs-create-theme "nerd-icons"
   :config
   (progn
     (dolist (item emacs-nerd-icons-extension-icon-alist)
